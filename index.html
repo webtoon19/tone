@@ -584,9 +584,12 @@
       div.innerText = text;
       return div.innerHTML;
     }
-
+const GOOGLE_SHEET_URL = "https://docs.google.com/spreadsheets/d/1-Hh3P7eO0Axe6A3S-uyMAO4mC4CAWRYs_362iMR-q4M/edit?usp=drivesdk";
     window.onload = function() {
-      createTwinklingStars();
+  createTwinklingStars();
+  fetchReviewsFromSheet();
+}
+
     }
   </script>
 </body>
